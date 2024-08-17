@@ -212,11 +212,17 @@ section {
   cursor: pointer;
   height: 2rem;
 }
-ul{
+
+#socials-container ul{
   display: flex;
-}
-li {
-  list-style: none;
+  gap: 2rem;
+
+  & li {
+    cursor: pointer;
+    list-style: none;
+    font-size: 3rem;
+  }
+
 }
 
 /* BUTTONS */
