@@ -168,12 +168,21 @@ section {
   gap: 5rem;
   height: 80vh;
 }
-
-.section__pic-container {
+.pp-image{
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.section__pic-container  {
   display: flex;
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   margin: auto 0;
+}
+
+.profile-pic{
+  width: 100%;
+ height: auto;
 }
 
 .section__text {
@@ -213,14 +222,14 @@ section {
   height: 2rem;
 }
 
-#socials-container ul{
+#socials-container ul {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
 
   & li {
     cursor: pointer;
     list-style: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
 }
@@ -320,11 +329,11 @@ section {
   height: 80%;
 }
 
-.section__pic-container {
+/* .section__pic-container {
   height: 400px;
   width: 400px;
   margin: auto 0;
-}
+} */
 
 /* EXPERIENCE SECTION */
 
