@@ -169,6 +169,7 @@ section {
   height: 80vh;
 }
 .pp-image{
+  align-items: flex-start;
   position: relative;
   overflow: hidden;
   border-radius: 50%;

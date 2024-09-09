@@ -91,6 +91,11 @@
       height: 46vw;
       justify-content: center;
     }
+    .pp-image{
+      width: 250px;
+        height: 250px;
+        justify-content: center;
+    }
     .section__text__p2 {
       font-size: 1.25rem;
     }
