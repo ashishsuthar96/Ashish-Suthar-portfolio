@@ -151,7 +151,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  margin: 20px 8rem;
+  margin: 50px 8rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -161,7 +161,6 @@ section {
 #profile {
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
 }
 .pp-image{
   align-items: flex-start;
@@ -399,12 +398,14 @@ article .icon {
 }
 
 .contact-info-upper-container {
+  gap: 1rem;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
+  justify-content: space-around;
 }
 
 .contact-info-container {
@@ -463,6 +464,7 @@ padding: 1rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   border-radius: 2rem;
+  margin-bottom: 4vh;
 }
 .about-dir{ 
   flex-direction: column;
