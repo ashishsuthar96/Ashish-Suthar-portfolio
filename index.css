@@ -97,10 +97,10 @@ a:hover {
 .menu-links {
   position: absolute;
   top: 100%;
-  right: 0;
+  right: -16px;
   background-color: white;
   width: fit-content;
-  max-height: 0;
+  height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
 }
@@ -120,7 +120,14 @@ a:hover {
 }
 
 .menu-links.open {
-  max-height: 300px;
+  padding-top: 20px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  /* background: rebeccapurple; */
+  width: 100vw;
+  height: 100vh;
 }
 
 .hamburger-icon.open span:first-child {
