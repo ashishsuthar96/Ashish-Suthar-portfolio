@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <nav id="desktop-nav" class="flex" > 
+  <nav id="desktop-nav" class="flex">
     <div class="logo">My Portfolio</div>
     <div>
       <ul class="nav-links flex">
@@ -46,7 +46,7 @@
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Ashish Suthar</h1>
       <p class="section__text__p2"> <span id="element"></span></p>
-      <div class="btn-container">
+      <div class="btn-container flex">
         <button class="btn btn-color-2" onclick="window.open('Arpit Srivastav.pdf')">
           Download CV
         </button>
@@ -54,7 +54,7 @@
           Contact Info
         </button>
       </div>
-      <div id="socials-container">
+      <div id="socials-container" class="flex">
         <img src="./assets/Linkedin.svg" alt="My LinkedIn profile" class="icon" target="_blank"
           onclick="window.open('https://www.linkedin.com/in/ashishsuthar96/', '_blank');" />
         <img src="./assets/Git.svg" alt="My Github profile" class="icon"
@@ -65,44 +65,44 @@
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
-    <div class="section-container">
-      <div class="section__pic-container">
+    <div class="section-container flex">
+      <div class="section__pic-container flex">
         <img src="./assets/Web D.jpg" alt="Profile picture" class="about-pic" />
       </div>
-      <div class="about-details-container">
-        <div class="about-containers">
+      <div class="about-details-container flex">
+        <div class="about-containers flex">
           <div class="details-container">
-            <i class="fa-solid fa-business-time icon"></i>
             <h3>Experience</h3>
             <p>Infosys <br /> Senior System Engineer</p>
-            <p>Developed and maintained Java applications using Spring Boot, Hibernate, and microservices architecture, which enhanced scalability and performance. <br/>Created and optimized REST APIs to enable seamless integration with various front-end systems and third-party services.
+            <p>Developed and maintained Java applications using Spring Boot, Hibernate, and microservices architecture,
+              which enhanced scalability and performance. <br />Created and optimized REST APIs to enable seamless
+              integration with various front-end systems and third-party services.
             </p>
           </div>
           <div class="details-container">
-            <i class="fa-solid fa-user-group icon"></i>
             <h3>Education</h3>
             <p>B.Tech Bachelors Degree</p>
           </div>
         </div>
-        <div class="text-container">
-          <p>
-            Software Engineer with 3 years of experience in developing scalable applications. Proficient in Java, Spring
-            Boot, Hibernate, Javascript, SQL, HTML, and CSS, with a strong focus on microservices, user experience, and
-            system performance. Dedicated to delivering high-quality, efficient solutions.
-          </p>
-        </div>
       </div>
     </div>
+    <div class="text-container"></div>
+    <p>
+      Software Engineer with 3 years of experience in developing scalable applications. Proficient in Java, Spring
+      Boot, Hibernate, Javascript, SQL, HTML, and CSS, with a strong focus on microservices, user experience, and
+      system performance. Dedicated to delivering high-quality, efficient solutions.
+    </p>
+  </div>
   </section>
 
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Key Skills</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
+    <div class="experience-details-container flex">
+      <div class="about-containers flex">
         <div class="details-container">
           <h2 class="experience-sub-title">Frontend Development</h2>
-          <div class="article-container">
+          <div class="article-container flex">
             <article>
               <img src="./assets/Html.svg" alt="Experience icon" class="icon" />
               <div>
@@ -202,49 +202,46 @@
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
+    <div class="experience-details-container flex">
+      <div class="about-containers flex">
         <div class="details-container color-container">
-          <div class="article-container">
+          <div class="article-container flex">
             <img src="./assets/news_website.png" alt="Project 1" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">News Website</h2>
-          <div class="btn-container">
+          <div class="btn-container flex">
             <button class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/Arpit-sde1210/Portfolio-Website'">
-            Browse <img src="assets/link.svg" alt="">
-          </button>
-
+              onclick="location.href='https://github.com/Arpit-sde1210/Portfolio-Website'">
+              Browse <img src="assets/link.svg" alt="">
+            </button>
             <button class="btn btn-color-2 project-btn"
               onclick="location.href='https://github.com/Arpit-sde1210/Portfolio-Website'">
               Github <img src="assets/link.svg" alt="">
             </button>
-            
-
           </div>
         </div>
         <div class="details-container color-container">
-          <div class="article-container">
+          <div class="article-container flex">
             <img src="./assets/image.png" alt="Project 2" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">IPL Dashboard</h2>
-          <div class="btn-container">
+          <div class="btn-container flex">
             <button class="btn btn-color-2 project-btn"
               onclick="location.href='https://github.com/Arpit-sde1210/ChatBot-using-Gemini-LLM'">
-              Github
+              Github<img src="assets/link.svg" alt="">
             </button>
 
           </div>
         </div>
         <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/Microservice.svg" alt="Project 3" class="project-img"  />
+          <div class="article-container flex">
+            <img src="./assets/Microservice.svg" alt="Project 3" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">Microservice</h2>
-          <div class="btn-container">
+          <div class="btn-container flex">
             <button class="btn btn-color-2 project-btn"
               onclick="location.href='https://github.com/ashishsuthar96/microservice'">
-              Github
+              Github<img src="assets/link.svg" alt="">
             </button>
 
           </div>
@@ -252,19 +249,19 @@
       </div>
     </div>
   </section>
-  <section id="contact">
+  <section id="contact" class="flex">
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
+    <div class="contact-info-upper-container flex">
+      <div class="contact-info-container flex" >
         <img src="./assets/email.svg" alt="Email icon" class="icon contact-icon email-icon" />
         <p><a href="mailto:Official.ashishsuthar@gmail.com">Email</a></p>
       </div>
-      <div class="contact-info-container">
+      <div class="contact-info-container flex">
         <img src="./assets/Linkedin.svg" alt="LinkedIn icon" class="icon contact-icon" />
         <p><a href="https://www.linkedin.com/in/ashishsuthar96/">LinkedIn</a></p>
       </div>
-      <div class="contact-info-container"></div>
+      <div class="contact-info-container flex">
         <img src="./assets/phone.svg" alt="Phone icon" class="icon contact-icon" />
         <p>+91 7014463425 </p>
       </div>
@@ -272,13 +269,13 @@
   </section>
   <footer>
     <div class="nav-links-container">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+      <ul class="nav-links flex">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
     <p>Copyright &#169; 2024 Arpit Srivastav. All Rights Reserved.</p>
   </footer>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js">
