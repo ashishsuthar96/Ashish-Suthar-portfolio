@@ -168,10 +168,12 @@ section {
   position: relative;
   overflow: hidden;
   border-radius: 50%;
+  height: 350px;
+  width: 350px;
 }
 .section__pic-container  {
-  height: 400px;
-  width: 400px;
+  height: 370px;
+  width: 350px;
   margin: auto 0;
 }
 
@@ -442,4 +444,27 @@ footer p {
 
 .nav-links-container .nav-links li a{
   color:white;
+}
+
+.about-text {
+padding: 1rem;
+  & p span{
+    font-size: 0.8rem;
+  }
+  & .company{
+    padding-top: 10px;
+    text-align: justify;
+    
+  }
+}
+.text-container{
+  background: rgb(239 239 239);
+  padding: 20px;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  border-radius: 2rem;
+}
+.about-dir{ 
+  flex-direction: column;
+  gap: 0.5rem;
 }
